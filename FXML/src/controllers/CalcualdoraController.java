@@ -4,10 +4,15 @@ package controllers;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleGroup;
-import model.Operaciones;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Alert;
 import javafx.scene.control.RadioButton;
+
+import model.Operaciones;
+
+import java.net.URL;
+
+import java.util.ResourceBundle;
 
 
 public class CalcualdoraController {
@@ -60,6 +65,10 @@ public class CalcualdoraController {
             alert.setContentText("Formato incorrecto");
             alert.showAndWait();
         }
+    }
+    
+    public void initialize(URL arg0, ResourceBundle arg1) {
+    	
     }
 
 }
