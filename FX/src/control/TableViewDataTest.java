@@ -8,9 +8,10 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import java.time.LocalDate;
+
+import application.Person;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
-import model.Person;
 
 import static java.time.temporal.ChronoUnit.YEARS;
 

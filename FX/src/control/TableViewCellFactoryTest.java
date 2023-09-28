@@ -9,9 +9,10 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
-import model.Person;
 
 import java.time.format.DateTimeFormatter;
+
+import application.Person;
 import javafx.beans.property.ReadOnlyBooleanWrapper;
 import javafx.scene.control.cell.CheckBoxTableCell;
 

@@ -2,11 +2,12 @@
 package control;
 
 import java.time.LocalDate;
+
+import application.Person;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
-import model.Person;
 
 public class PersonTableUtil {
 	/* Returns an observable list of persons */

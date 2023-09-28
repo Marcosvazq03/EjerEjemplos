@@ -1,12 +1,12 @@
 // SimplestTableView.java
 package control;
 
+import application.Person;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.TableView;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import model.Person;
 
 @SuppressWarnings("unchecked")
 public class SimplestTableView extends Application {

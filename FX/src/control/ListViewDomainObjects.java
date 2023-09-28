@@ -1,6 +1,7 @@
 // ListViewDomainObjects.java
 package control;
 
+import application.Person;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -9,7 +10,6 @@ import javafx.scene.control.ListView;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 import javafx.util.Callback;
-import model.Person;
 
 public class ListViewDomainObjects extends Application {
 	public static void main(String[] args) {

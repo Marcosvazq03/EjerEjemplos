@@ -1,8 +1,8 @@
 // PersonStringConverter.java
 package control;
 
+import application.Person;
 import javafx.util.StringConverter;
-import model.Person;
 
 public class PersonStringConverter extends StringConverter<Person> {
 	@Override

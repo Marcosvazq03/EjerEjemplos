@@ -11,8 +11,10 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import model.Person;
+
 import java.util.Arrays;
+
+import application.Person;
 import javafx.scene.control.SelectionMode;
 import javafx.scene.layout.HBox;
 import static javafx.scene.control.TableView.TableViewSelectionModel;
